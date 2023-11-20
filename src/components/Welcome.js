@@ -5,7 +5,8 @@ import Image from './main-video-img.jpg.png';
 const style = {
   backgroundColor: "rgba(255, 238, 252, 1)",
   justifyContent: "center",
-  fontFamily: "inter"
+  fontFamily: "inter",
+  minHeight: "30vw"
 };
 
 export default function Welcome() {
@@ -20,10 +21,10 @@ export default function Welcome() {
             <p style={{ fontFamily: "Poppins" }}>
               World-class companies use Writealy AI writing platform to unlock brainstorming for publishing a book.
             </p>
-            <Button variant="outline-dark" className='rounded-pill' size="md" style={{ marginRight: '10px', fontFamily: "Poppins" }}>
+            <Button variant="outline-dark" className='rounded-pill' style={{ marginRight: '10px', fontFamily: "Poppins" }}>
               Request a demo
             </Button>
-            <Button variant="outline-dark" className='rounded-pill' style={{ backgroundColor: "rgba(235, 122, 101, 1)", size: 'lg', fontFamily: "Poppins", color: "white" }}>
+            <Button variant="outline-dark" className='rounded-pill' style={{ backgroundColor: "rgba(235, 122, 101, 1)", fontFamily: "Poppins", color: "white" }}>
               Try for free
             </Button>
           </div>
