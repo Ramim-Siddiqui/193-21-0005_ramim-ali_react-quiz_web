@@ -26,7 +26,7 @@ const Header = () => {
           <Nav.Link href="#pricing">Pricing</Nav.Link>
           <Nav.Link href="#pricing">Customer</Nav.Link>
           <NavDropdown title="Resources" id="basic-nav-dropdown"></NavDropdown>
-          <Nav.Link href="#pricing"><Button variant="outline-dark">Sign in</Button></Nav.Link>
+          <Nav.Link href="#pricing"><Button variant="outline-dark" className='rounded-pill'>Sign in</Button></Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
