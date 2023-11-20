@@ -29,9 +29,9 @@ export default function Welcome() {
           </div>
           <div className='col-md-6 col-sm-12 text-center'>
             <div>
-              <img src={Image} alt="" style={{ width: '40vw', margin: 'auto' }} />
+              <img src={Image} alt="" style={{ width: '35vw', margin: 'auto' }} />
             </div>
-            <span style={{fontFamily:"Poppins"}}>Watch the product overview</span>
+            <span style={{fontFamily:"Poppins"}}>Watch the product overview </span>
             <sub>3 mins</sub>
           </div>
         </div>
