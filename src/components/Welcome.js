@@ -14,8 +14,9 @@ export default function Welcome() {
     <div>
       <div className='container-fluid' style={style}>
         <div className='row'>
-          <div className='col-md-6 col-sm-12' style={{ width: "25vw", margin: "auto" }}>
-            <span style={{ color: "transparent", backgroundImage: "linear-gradient(to right, rgba(53, 92, 153, 1), rgba(235, 122, 101, 1), rgba(169, 249, 225, 1))", WebkitBackgroundClip: "text", fontSize: "3vw" }}>Brainstorm</span>
+          <div className='col-md-6 col-sm-12'>
+            <div style={{marginLeft: "20vw"}}>
+            <span style={{ color: "transparent", backgroundImage: "linear-gradient(to right, rgba(53, 92, 153, 1), rgba(235, 122, 101, 1), rgba(169, 249, 225, 1))", WebkitBackgroundClip: "text", fontSize: "5vw" }}>Brainstorm</span>
             <br />
             <p style={{ fontSize: "3vw" }}>your book easily</p>
             <p style={{ fontFamily: "Poppins" }}>
@@ -27,6 +28,7 @@ export default function Welcome() {
             <Button variant="outline-dark" className='rounded-pill' style={{ backgroundColor: "rgba(235, 122, 101, 1)", fontFamily: "Poppins", color: "white" }}>
               Try for free
             </Button>
+            </div>
           </div>
           <div className='col-md-6 col-sm-12 text-center'>
             <div>
