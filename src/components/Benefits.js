@@ -1,17 +1,17 @@
 import React from 'react'
-import ben1 from "./ben1.png";
-import ben2 from "./ben2.png";
-import ben3 from "./ben3.png";
-import ben4 from "./ben4.png";
+import ben1 from "../assets/images/ben1.png";
+import ben2 from "../assets/images/ben2.png";
+import ben3 from "../assets/images/ben3.png";
+import ben4 from "../assets/images/ben4.png";
 
-import ben_logo1 from "./ben_logo1.png";
-import ben_logo2 from "./ben_logo2.png";
-import ben_logo3 from "./ben_logo3.png";
-import ben_logo4 from "./ben_logo4.png";
-import ben_logo5 from "./ben_logo5.png";
+import ben_logo1 from "../assets/images/ben_logo1.png";
+import ben_logo2 from "../assets/images/ben_logo2.png";
+import ben_logo3 from "../assets/images/ben_logo3.png";
+import ben_logo4 from "../assets/images/ben_logo4.png";
+import ben_logo5 from "../assets/images/ben_logo5.png";
 
 
-const About = () => {
+const Benefits = () => {
     return (
         <>
             <div className="container">
@@ -115,4 +115,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Benefits
